@@ -1,0 +1,124 @@
+
+
+/* Tag name */
+
+body  {
+background: #f0ed92;
+}
+h1 {
+    color: #e2620c;
+}
+
+.card {
+    
+    border: 3px solid #fff;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+
+}
+.bg-blue {
+    background: #2482ed;
+}
+.bg-purple {
+    background: #cb1ee5;
+}
+.bg-pink {
+    background: #f50ca7;
+}
+.bg-grey {
+    background: #9e9b9b;
+    margin-bottom: 20px;
+
+}
+.container {
+    max-width: 750px;
+    padding-top: 25px;
+
+}
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px #111;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+a {
+    color: #111;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+.btn {
+    background: #111;
+    padding: 15px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: .8;
+}
+
+.list {
+    padding: 0px 25px;
+
+}
+.list li {
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+
+}
+.table {
+    width: 100%;
+
+}
+.table td {
+    padding-bottom: 10px;
+
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: coral;
+
+}
+.form h2 {
+    text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 15px;
+color: #fff;
+}
+.form-group input,
+.form-group textarea {
+width: 100%;
+border: none;
+background: transparent;
+padding: 15px;
+outline: none;
+font-family: inherit;
+
+}
+.container    {
+    display:flex ;
+    
+}
+@media (max-width:632px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+}  
+/* Class
+пишем . и название селектора после точки далее фигурные скобки и тд */
+
+
+/* ID 
+пишем # и название селектора после точки ... */

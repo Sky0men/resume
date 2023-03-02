@@ -6,24 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="html, css,course, tag" />
     <meta name="discription" content="Данный сайт представляет мое резюме" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="6khjp7sScpyJl3WH4NdQBkzpQ-2RrMhJV8jufasztf6clbCNypL2ND2a8B9A7ZYkzB-tbBt9ugzVuuI0LX6AlMdU.jpg" width="150" alt="Моя фотография">
-    <h1>Иван Зеленцов</h1>
-    <p>Я являюсь студентом химического университета в Москве <strong>РТУ МИРЭА</strong></p>
-    <p>Я люблю <em>путешествовать, узнавать что-то новое.</em>Так же я хочу научиться <strong><em>программировать</em></strong>.</p>
+  <div class="container">
+    <img src="6khjp7sScpyJl3WH4NdQBkzpQ-2RrMhJV8jufasztf6clbCNypL2ND2a8B9A7ZYkzB-tbBt9ugzVuuI0LX6AlMdU.jpg" class="avatar" alt="Моя фотография">
+          
+    
+    <p> Я,<strong>Зеленцов Иван</strong>,являюсь студентом химического университета в Москве <strong>РТУ МИРЭА</strong>
+     Я люблю <em>путешествовать, узнавать что-то новое.</em>Так же я хочу научиться <strong><em>программировать</em></strong>.</p>
+        
+   </div>
+    <div class="card bg-grey">
     <h2>Список социальных сетей</h2>
     <a href="https://vk.com/vanechka_aap" target="_blank">ВК</a>
     |
     <a href="https://web.telegram.org/z/" target="_blank">Telegram</a>
+    </div>
+    <div class="card bg-pink">  
     <h3>Мои хобби</h3>
-    <ol>
+    <ol class="list">
         <li>Теннис</li>
         <li>Хоккей</li>
         <li>Программирование</li>
-    </ol>   
+    </ol>
+    </div>   
+    <div class="card bg-blue">
     <h3>Опыт работы</h3> 
-    <table>
+    <table class="table">
         <thead> 
             <tr>
                 <th>Название работы</th>
@@ -48,23 +58,28 @@
             </tr>
         </tbody>
     </table>
-    <h2>Связаться со мной</h2>
-    <form action="=">
-        <div>
+    </div> 
+    <div class="card bg-purple"> 
+    
+    <form action="=" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-group">
             <label for="name">Ваше имя:</label>
             <input type="text" id="name" placeholder="Введите имя">
         </div>
-        <div>
+        <div class="form-group">
             <label for="email">Ваш email:</label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
-        <div>
+        <div class="form-group">
             <label for="message">Ваше сообщение</label>
             <br>
             <textarea  id="message" cols="15" rows="5" placeholder="Введите текст"></textarea>
         </div>
-        <input type="submit" value="Отправить">
+        <input class="btn" type="submit" value="Отправить">
     
     </form>
+    </div>
+    </div>  
 </body>
 </html>
